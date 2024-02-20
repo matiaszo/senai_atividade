@@ -1,2 +1,3 @@
-# senai_atividade
-treino exercicio em sala
+# comandos
+git clone - clona o projeto do rep remoto para o local
+
