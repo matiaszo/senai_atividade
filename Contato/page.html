@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="../Contato/script.js"></script>
 </head>
 <body>
-    <h1>contato</h1>
+    <a href="../Menu/page.html">VOLTAR </a>
+    <h1>Contato</h1>
+    <h2>Insira dados inicias para envio</h2>
+
+    <label for="nome"></label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+
+    <br><br><br>
+
+    <label for="mensagem">Observações</label>
+    <textarea id="mensagem" placeholder="Digite suas observações"></textarea>
+
+    <br><br>
+
+    <button onclick="conferir_mensagem_whatsapp()">Conferir Mensagem</button>
+    
+    <p>Nome: <span id="conf_nome"></span></p>
+    <p>Observações: <span id="conf_msg"></span></p>
+    <p><span id="conf_date"></span></p>
+
+    <button onclick="enviar()">Enviar mensagem</button>    
 </body>
 </html>
